@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/possumadmin/static/css/main.5f361e03.chunk.css",
-    "main.js": "/possumadmin/static/js/main.46ea9a9c.chunk.js",
-    "main.js.map": "/possumadmin/static/js/main.46ea9a9c.chunk.js.map",
+    "main.js": "/possumadmin/static/js/main.1a5ab26d.chunk.js",
+    "main.js.map": "/possumadmin/static/js/main.1a5ab26d.chunk.js.map",
     "runtime-main.js": "/possumadmin/static/js/runtime-main.6fdb2a91.js",
     "runtime-main.js.map": "/possumadmin/static/js/runtime-main.6fdb2a91.js.map",
     "static/css/2.220ccb42.chunk.css": "/possumadmin/static/css/2.220ccb42.chunk.css",
-    "static/js/2.32135195.chunk.js": "/possumadmin/static/js/2.32135195.chunk.js",
-    "static/js/2.32135195.chunk.js.map": "/possumadmin/static/js/2.32135195.chunk.js.map",
+    "static/js/2.b2ab6825.chunk.js": "/possumadmin/static/js/2.b2ab6825.chunk.js",
+    "static/js/2.b2ab6825.chunk.js.map": "/possumadmin/static/js/2.b2ab6825.chunk.js.map",
     "index.html": "/possumadmin/index.html",
-    "precache-manifest.41d768760c9598cb8ea03f19e1ca803c.js": "/possumadmin/precache-manifest.41d768760c9598cb8ea03f19e1ca803c.js",
+    "precache-manifest.40670ffd48eac625bdc063f0a2a01c46.js": "/possumadmin/precache-manifest.40670ffd48eac625bdc063f0a2a01c46.js",
     "service-worker.js": "/possumadmin/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/possumadmin/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/possumadmin/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.32135195.chunk.js.LICENSE.txt": "/possumadmin/static/js/2.32135195.chunk.js.LICENSE.txt"
+    "static/js/2.b2ab6825.chunk.js.LICENSE.txt": "/possumadmin/static/js/2.b2ab6825.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6fdb2a91.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.32135195.chunk.js",
+    "static/js/2.b2ab6825.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.46ea9a9c.chunk.js"
+    "static/js/main.1a5ab26d.chunk.js"
   ]
 }
