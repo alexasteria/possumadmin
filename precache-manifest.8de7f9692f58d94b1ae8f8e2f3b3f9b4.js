@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4bd7c2ada45fa89d6b71fa27ae2bfd1",
+    "revision": "1246d601d0cdf23448387aa245534051",
     "url": "/possumadmin/index.html"
   },
   {
-    "revision": "67baaec7c3ad4a489866",
+    "revision": "26b1f8b4a83f5ff9a6a5",
     "url": "/possumadmin/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "dc8c8ec4a9526c6ada27",
+    "revision": "4803b2d03e4c54663de1",
     "url": "/possumadmin/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "67baaec7c3ad4a489866",
-    "url": "/possumadmin/static/js/2.c7d782c9.chunk.js"
+    "revision": "26b1f8b4a83f5ff9a6a5",
+    "url": "/possumadmin/static/js/2.86187351.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/possumadmin/static/js/2.c7d782c9.chunk.js.LICENSE.txt"
+    "url": "/possumadmin/static/js/2.86187351.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc8c8ec4a9526c6ada27",
-    "url": "/possumadmin/static/js/main.cb63c6a6.chunk.js"
+    "revision": "4803b2d03e4c54663de1",
+    "url": "/possumadmin/static/js/main.14a3a431.chunk.js"
   },
   {
     "revision": "4f3c358f408854dca92a",
