@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/possumadmin/static/css/main.5f361e03.chunk.css",
-    "main.js": "/possumadmin/static/js/main.72491e42.chunk.js",
-    "main.js.map": "/possumadmin/static/js/main.72491e42.chunk.js.map",
+    "main.js": "/possumadmin/static/js/main.56d00a17.chunk.js",
+    "main.js.map": "/possumadmin/static/js/main.56d00a17.chunk.js.map",
     "runtime-main.js": "/possumadmin/static/js/runtime-main.6fdb2a91.js",
     "runtime-main.js.map": "/possumadmin/static/js/runtime-main.6fdb2a91.js.map",
     "static/css/2.220ccb42.chunk.css": "/possumadmin/static/css/2.220ccb42.chunk.css",
-    "static/js/2.8e562f48.chunk.js": "/possumadmin/static/js/2.8e562f48.chunk.js",
-    "static/js/2.8e562f48.chunk.js.map": "/possumadmin/static/js/2.8e562f48.chunk.js.map",
+    "static/js/2.ac8ad88d.chunk.js": "/possumadmin/static/js/2.ac8ad88d.chunk.js",
+    "static/js/2.ac8ad88d.chunk.js.map": "/possumadmin/static/js/2.ac8ad88d.chunk.js.map",
     "index.html": "/possumadmin/index.html",
-    "precache-manifest.539d32d5e9bb8fbb14c56f28c1cd1e13.js": "/possumadmin/precache-manifest.539d32d5e9bb8fbb14c56f28c1cd1e13.js",
+    "precache-manifest.b83c1c7ed206a174373263e41f153594.js": "/possumadmin/precache-manifest.b83c1c7ed206a174373263e41f153594.js",
     "service-worker.js": "/possumadmin/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/possumadmin/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/possumadmin/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8e562f48.chunk.js.LICENSE.txt": "/possumadmin/static/js/2.8e562f48.chunk.js.LICENSE.txt"
+    "static/js/2.ac8ad88d.chunk.js.LICENSE.txt": "/possumadmin/static/js/2.ac8ad88d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6fdb2a91.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.8e562f48.chunk.js",
+    "static/js/2.ac8ad88d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.72491e42.chunk.js"
+    "static/js/main.56d00a17.chunk.js"
   ]
 }
