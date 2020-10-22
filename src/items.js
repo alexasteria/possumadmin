@@ -190,19 +190,17 @@ const saveNewPropd = () => {
             title: 'Фото',
             dataIndex: 'thumb_photo',
             key: 'thumb_photo',
-            render: thumb_photo => <img style={{width: 100, height: 100}} src={thumb_photo}/>,
+            render: (thumb_photo, product) => <><img style={{width: 100, height: 100}} src={thumb_photo}/><br/>
+                <Tag onClick={()=>changeIsTrading(product)} color={product.isTrading ? 'green' : 'red'} key={1}>
+                    {product.isTrading ? 'Продается' : 'Снят с продажи'}
+                </Tag></>,
         },
         {
             title: 'Название',
             dataIndex: 'title',
             key: 'title',
-            render: text => <a>{text}</a>,
-        },
-        {
-            title: 'Описание',
-            dataIndex: 'description',
-            key: 'description',
-            render: (description, product) => <TextArea onChange={(e)=>changeDescription(e.target.value, product)} style={{width: 300, height: 100}} value={description}/>,
+            render: (text, product) => <><a>{text}</a><br/>
+                <TextArea onChange={(e)=>changeDescription(e.target.value, product)} style={{width: 300, height: 100}} value={product.description}/></>,
         },
         {
             title: 'Категория',
@@ -210,7 +208,7 @@ const saveNewPropd = () => {
             key: 'category',
             render: (category, product) =>
                 <>
-                    Категория - {product.group.name}
+                    Категория - {product.group.name}<br/>
                     <Select label="Подкатегория" value={category || 'Выберите подкатегорию'} onChange={(value)=>changeCategory(value, product)}>
                         <Option value={'Консервы'}>Консервы</Option>
                         <Option value={'Корма/добавки для живых насекомых'}>Корма/добавки для живых насекомых</Option>
@@ -270,22 +268,10 @@ const saveNewPropd = () => {
                     })
                 )
             }
-        },
-        {
-            title: 'Статус продажи',
-            dataIndex: 'isTrading',
-            key: 'isTrading',
-            render: (isTrading, product) =>{
-                return (
-                    <Tag onClick={()=>changeIsTrading(product)} color={isTrading ? 'green' : 'red'} key={1}>
-                        {isTrading ? 'Продается' : 'Снят с продажи'}
-                    </Tag>
-                )
-            },
         }
     ];
     return (
-        <div className="container">
+        <div className="container" style={{overflowX: 'scroll'}}>
             <Modal
                 title="Добавление товара"
                 visible={visible}
