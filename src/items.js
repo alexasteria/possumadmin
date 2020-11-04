@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {Table, Tag, Modal, Button, InputNumber, Select, message, Input, Form} from 'antd';
 import TextArea from "antd/es/input/TextArea";
+import Auth from "./Auth";
 
 const {Option} = Select;
-const Items = () => {
+const Items = ({user, setUser}) => {
     const [arrItems, setArrItems] = useState([]);
     const [key, setKey] = useState('');
     const [visible, setVisible] = useState(false);
@@ -270,6 +271,7 @@ const saveNewPropd = () => {
             }
         }
     ];
+    if (!user) return <Auth setUser={setUser}/>
     return (
         <div className="container" style={{overflowX: 'scroll'}}>
             <Modal

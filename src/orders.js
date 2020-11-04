@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {Table, Tag, Space, Button, InputNumber, Select, message, Input} from 'antd';
+import Auth from "./Auth";
 const {Option} = Select;
-const Orders = () => {
+const Orders = ({user, setUser}) => {
     const [arrOrders, setArrOrders] = useState([]);
     const [key, setKey] = useState('');
     const changeStatus = async(value, product) => {
@@ -118,6 +119,7 @@ const Orders = () => {
             </Select>),
         }
     ];
+    if (!user) return <Auth setUser={setUser}/>
     return (
         <div className="container">
             <Input value={key} onChange={event=>setKey(event.target.value)} placeholder={'Вставьте в это поле ключ доступа. Без него изменения не будут применены.'}/>
