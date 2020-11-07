@@ -95,7 +95,7 @@ const OrdersOld = ({user, setUser}) => {
             title: 'Детали',
             dataIndex: 'jsonParams',
             key: 'jsonParams',
-            render: (jsonParams, order) =><div>
+            render: (jsonParams, order) =><div  style={{maxWidth: 400}}>
                 <pre>{JSON.stringify(jsonParams, "", 2)}</pre>
                 <Button type="dashed" onClick={()=>saveProd(order)}>Сохранить</Button>
             </div>,
